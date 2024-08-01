@@ -3,6 +3,11 @@ video {
   height: auto;
 }
 
+body
+{
+    font-size: 3.2vw;
+}
+
 /* h1 {
   color: rgb(255, 0, 102);
 } */
