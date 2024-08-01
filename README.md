@@ -1,6 +1,7 @@
 # Travel notes 
 
 Test 
-<video>
-    <source src="https://github.com/BriceChivu/bricetravels/blob/master/assets/Don't%20cry.mp4">
-</video>
+
+
+https://github.com/user-attachments/assets/b756d815-41d5-4a65-997a-450462cafaec
+
