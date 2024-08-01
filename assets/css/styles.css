@@ -1,4 +1,8 @@
+video {
+  width: 80%;
+  height: auto;
+}
 
 h1 {
-  color: blue;
+  color: rgb(255, 0, 102);
 }
