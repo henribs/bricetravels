@@ -1,1 +1,1 @@
-https://bricechivu.github.io/bricetravels/
+Blog: https://bricechivu.github.io/bricetravels/
