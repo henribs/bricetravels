@@ -1,10 +1,11 @@
 video {
-  width: 19.6%;
-  height: auto;
+  width: auto;
+  height: 125px;
 }
 
 img {
-  width: 19.6%;
+  width: auto;
+  height: 125px;
 }
 
 body
