@@ -1,11 +1,11 @@
 video {
   width: auto;
-  height: 125px;
+  height: 250px;
 }
 
 img {
   width: auto;
-  height: 125px;
+  height: 250px;
 }
 
 body
@@ -15,7 +15,7 @@ body
 
 iframe {
   width: auto;
-  height: 125px;
+  height: 250px;
 }
 /* .dates {
   font-size: 1.2vw;
