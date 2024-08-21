@@ -1,22 +1,13 @@
-video {
+/* img {
   width: auto;
   height: 300px;
-}
-
-img {
-  width: auto;
-  height: 300px;
-}
+} */
 
 body
 {
     font-size: 1.5vw;
 }
 
-iframe {
-  width: auto;
-  height: 300px;
-}
 /* .dates {
   font-size: 1.2vw;
   font-style: italic;
