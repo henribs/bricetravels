@@ -18,7 +18,9 @@ def print_img_src(country: str):
         if any(ext in str(filepath).lower() for ext in ["jpg", "jpeg", "png"]):
             img = Image.open(filepath)
             name = str(filepath).split("blog/")[1]
-            print(f'<img src="{name}" width="{img.width}" height="{img.height}" />')
+            print(
+                f'<img src="{name}" width="{img.width}" height="{img.height}" loading="lazy"/>'
+            )
 
 
 if __name__ == "__main__":
