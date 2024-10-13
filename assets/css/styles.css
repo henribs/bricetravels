@@ -4,8 +4,8 @@ img {
 }
 
 .custom-size-map {
-  width: auto; /* Example hardcoded width */
-  height: 500px; /* Example hardcoded height */
+  width: auto; 
+  height: 500px;
 }
 
 /* body {
