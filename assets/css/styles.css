@@ -3,6 +3,11 @@ img {
   height: 300px;
 }
 
+.custom-size-map {
+  width: auto; /* Example hardcoded width */
+  height: 500px; /* Example hardcoded height */
+}
+
 /* body {
   font-size: 1.5vw;
 } */
