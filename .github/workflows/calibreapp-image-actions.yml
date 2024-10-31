@@ -27,5 +27,3 @@ jobs:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
           jpegQuality: '50'
           jpegProgressive: true
-          pngQuality: '50'
-          webpQuality: '50'
