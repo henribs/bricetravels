@@ -8,4 +8,6 @@ Blog: https://bricechivu.github.io/bricetravels/
 5. Change the order of the pictures only after the whole city is done
 
 
-[For image compression](https://github.com/calibreapp/image-actions?tab=readme-ov-file)
+For image compression:
+- [(previous method - old)](https://github.com/calibreapp/image-actions?tab=readme-ov-file)
+- ```magick mogrify -resize '2000x2000>' -interlace plane assets/media/*/*.jpg```
