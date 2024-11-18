@@ -10,4 +10,4 @@ Blog: https://bricechivu.github.io/bricetravels/
 
 For image compression:
 - [(previous method - old)](https://github.com/calibreapp/image-actions?tab=readme-ov-file)
-- ```magick mogrify -resize '2000x2000>' -interlace plane assets/media/*/*.jpg```
+- ```find media/ -type f \( -iname '*.jpg' -o -iname '*.png' \) -exec identify -format "%w %h %i\n" {} \; | awk '$1 > 2000 && $2 > 2000 {print $3}' | xargs mogrify -resize '2000x2000>' -interlace plane```
