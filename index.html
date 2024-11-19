@@ -1847,5 +1847,29 @@
       如果你听得懂中文，可以去看我的YouTube频道：
       <a href="https://www.youtube.com/@briceinsingapore">here</a>
     </details>
+    <script>
+    // Get all <img> elements in the document
+    const images = document.querySelectorAll("img");
+
+    images.forEach((image) => {
+        image.addEventListener('click', () => {
+            if (!document.fullscreenElement) {
+                // Request full-screen mode for the clicked image
+                image.requestFullscreen().then(() => {
+                    image.classList.add('full-screen'); // Add full-screen styling
+                }).catch((err) => {
+                    console.error(`Error attempting to enable full-screen mode: ${err.message}`);
+                });
+            } else {
+                // Exit full-screen mode if already in full-screen
+                document.exitFullscreen().then(() => {
+                    image.classList.remove('full-screen'); // Remove full-screen styling
+                }).catch((err) => {
+                    console.error(`Error attempting to exit full-screen mode: ${err.message}`);
+                });
+            }
+        });
+    });
+  </script>
   </body>
 </html>
